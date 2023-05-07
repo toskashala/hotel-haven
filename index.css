@@ -196,9 +196,6 @@ header {
     flex-direction: column-reverse;
     background: rgb(255,255,255);
   }
-  hr{
-    margin-top: 10%;
-  }
 
   .about-info{
     opacity: 0;
@@ -209,7 +206,7 @@ header {
   }
   #intro{
     margin-bottom: 40px;
-    margin-top: 50px;
+    padding-top: 50px;
     font-size: 3.5rem;
   }
 
