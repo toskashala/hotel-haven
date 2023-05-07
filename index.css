@@ -29,19 +29,16 @@ header {
     background-color: rgba(0, 0, 0, 0.403);
     height: 100%;
     width: 100%;
-    color: pink;
+    color: rgba(255, 255, 255, 0.746);
     position: relative;
-		animation: opacity1 2s;
+		animation: opacity1 1s;
 		}
 
     @keyframes opacity1 {
       0%{
         opacity: 0;
-        color: black;
       }
     }
-
-
 
   
   .slideshow {
@@ -150,9 +147,9 @@ header {
   .overlay-content {
     position: relative;
     top: 25%;
-    bottom: 25%;
     width: 100%;
     text-align: center;
+    margin-block:5%;
   }
   
   .overlay a {
@@ -195,6 +192,9 @@ header {
     flex-direction: column-reverse;
     background: rgb(255,255,255);
   }
+  hr{
+    margin-top: 10%;
+  }
 
   .about-info{
     opacity: 0;
@@ -205,7 +205,7 @@ header {
   }
   #intro{
     margin-bottom: 40px;
-    padding-top: 50px;
+    margin-top: 50px;
     font-size: 3.5rem;
   }
 
