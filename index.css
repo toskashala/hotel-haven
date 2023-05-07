@@ -3,8 +3,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-  background-color: white;
-  height: fit-content;
+    background-color: white;
+    height: fit-content;
     margin: 0;
     font-size: 16px;
     font-family: 'Cormorant Garamond', serif;
@@ -37,10 +37,10 @@ header {
     @keyframes opacity1 {
       0%{
         opacity: 0;
+        color: black;
+        padding-top: 200px;
       }
     }
-
-
 
   
   .slideshow {
@@ -110,9 +110,17 @@ header {
     text-align: center;
   }
   .navigation-header{
+    animation: opacity2 1s;
     display: flex;
     width: 100%;
     height: 10vh;
+  }
+  @keyframes opacity2 {
+    0%{
+      opacity: 0;
+      color: black;
+      margin-top: -200px;
+    }
   }
 
   span{
