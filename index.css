@@ -28,7 +28,7 @@ header {
     align-items: center;
     font-size: 10rem;
     background-color: rgba(0, 0, 0, 0.403);
-    height: 100vh;
+    height: 100%;
     width: 100%;
     color: rgba(255, 255, 255, 0.746);
     position: relative;
