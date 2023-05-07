@@ -136,7 +136,7 @@ header {
   
   
   .overlay {
-    height: 100vh;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -149,7 +149,7 @@ header {
   
   .overlay-content {
     position: relative;
-    top: 25%;
+    padding-top: 25%;
     width: 100%;
     text-align: center;
   }
