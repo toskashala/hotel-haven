@@ -10,7 +10,6 @@ body{
     font-family: 'Cormorant Garamond', serif;
     padding: 0;
 }
-
 header {
     display: flex;
     text-align: center;
@@ -19,6 +18,7 @@ header {
     width: 100%;
     height: 100vh;
   }
+
 
   header h1{
     display: flex;
@@ -29,7 +29,7 @@ header {
     background-color: rgba(0, 0, 0, 0.403);
     height: 100%;
     width: 100%;
-    color: rgba(255, 255, 255, 0.746);
+    color: pink;
     position: relative;
 		animation: opacity1 2s;
 		}
@@ -59,7 +59,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -102,7 +102,7 @@ header {
 
 .content {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -110,10 +110,10 @@ header {
     z-index: 1;
     text-align: center;
   }
-
   .navigation-header{
     display: flex;
     width: 100%;
+    height: 10vh;
   }
 
   span{
@@ -136,8 +136,7 @@ header {
   
   
   .overlay {
-    padding-top: 15%;
-    height: 100vh;
+    height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -150,6 +149,8 @@ header {
   
   .overlay-content {
     position: relative;
+    top: 25%;
+    bottom: 25%;
     width: 100%;
     text-align: center;
   }
@@ -203,8 +204,9 @@ header {
     color: #757373;
   }
   #intro{
-    font-size: 3.5rem;
+    margin-bottom: 40px;
     padding-top: 50px;
+    font-size: 3.5rem;
   }
 
   #amenities{
