@@ -27,7 +27,7 @@ header {
     align-items: center;
     font-size: 10rem;
     background-color: rgba(0, 0, 0, 0.403);
-    height: 100%;
+    height: 100vh;
     width: 100%;
     color: rgba(255, 255, 255, 0.746);
     position: relative;
@@ -38,7 +38,6 @@ header {
       0%{
         opacity: 0;
         color: black;
-        margin-bottom: -10px;
       }
     }
 
@@ -50,7 +49,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: -1;
     overflow: hidden;
   }
@@ -60,7 +59,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
